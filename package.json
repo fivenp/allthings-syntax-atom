@@ -1,0 +1,11 @@
+{
+  "name": "allthings-syntax",
+  "theme": "syntax",
+  "version": "0.0.1",
+  "description": "Allthings Syntax - Based on the nexus syntax theme from eric johney",
+  "repository": "https://github.com/fivenp/allthings-syntax",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.13.0"
+  }
+}
