@@ -88,13 +88,15 @@ atom-text-editor, .atom-text-editor {
 	}
 }
 .bracket-matcher .region {
-	border-bottom: 1px solid @a-color-yellow-orange;
-	margin-top: -1px;
-	opacity: 0.7;
+	background: @a-color-yellow-orange;
+	color: @a-color-black !important;
+	// border-bottom: 1px solid @a-color-yellow-orange;
+	// margin-top: -1px;
+	// opacity: 0.7;
 }
 .syntax--comment {
 	color: @a-color-grey-intense !important;
-	opacity: 0.4;
+	opacity: 0.8;
 	font-style: italic;
 }
 .syntax--keyword {
@@ -124,7 +126,10 @@ atom-text-editor, .atom-text-editor {
 	}
 }
 .syntax--variable {
-	color: @a-color-grey-intense;
+	color: @a-color-light-grey;
+	&.syntax--js, &.syntax--ruby {
+		color: @a-color-grey;
+	}
 	&.syntax--assignment {
 		color: @syntax-text-color;
 	}
@@ -134,7 +139,7 @@ atom-text-editor, .atom-text-editor {
 	color: @a-color-violet;
 }
 .syntax--invalid.syntax--illegal {
-	color: @a-color-violet-intense;
+	color: @a-color-magenta;
 	background-color: rgba(86, 45, 86, 0.75);
 }
 // String interpolation in Ruby, CoffeeScript, and others
@@ -176,6 +181,7 @@ atom-text-editor, .atom-text-editor {
 	&.syntax--function {
 		color: @a-color-orange-intense;
 		color: @a-color-turquoise;
+		color: @a-color-light-blue;
 	}
 	&.syntax--constant {
 		&.syntax--w3c-standard-color-name {
@@ -201,6 +207,9 @@ atom-text-editor, .atom-text-editor {
 }
 .syntax--meta {
 	&.syntax--function-call {
+		color: @a-color-grey;
+	}
+	&.syntax--delimiter {
 		color: @a-color-light-grey;
 	}
 	.syntax--punctuation {
