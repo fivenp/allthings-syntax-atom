@@ -20,6 +20,7 @@ $ apm install allthings-syntax
 $ cp _editors/PhpStorm/Allthings.icls ~/Library/Preferences/<Product>/colors/
 ```
 **Windows**
+
 Copy `_editors/PhpStorm/Allthings.icls` to `C:/Users/USERNAME/.<Product>/config/colors`
 
 **Linux**
