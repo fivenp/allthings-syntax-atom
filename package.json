@@ -1,7 +1,7 @@
 {
   "name": "allthings-syntax",
   "theme": "syntax",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Allthings Syntax - Based on the nexus syntax theme from eric johney but still completely different",
   "repository": "https://github.com/fivenp/allthings-syntax-atom",
   "license": "MIT",
